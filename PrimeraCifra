@@ -3,4 +3,7 @@ primeraCifra :: Int -> Int
 primeraCifra x = read [head (show x)] :: Int
 
 -- Ejemplo para primeraCifra
+
+    main :: IO ()
+    main = do
     print (primeraCifra 325)  -- Debería imprimir 3
