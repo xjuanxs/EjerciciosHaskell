@@ -3,4 +3,8 @@ ultimaCifra :: Int -> Int
 ultimaCifra x = rem x 10
 
 -- Ejemplo para ultimCifra
+
+    main :: IO ()
+    main = do
+
   print (ultimaCifra 325)  -- Debería imprimir 5
