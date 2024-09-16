@@ -1,0 +1,6 @@
+-- Función que devuelve la primera cifra
+primeraCifra :: Int -> Int
+primeraCifra x = read [head (show x)] :: Int
+
+-- Ejemplo para primeraCifra
+    print (primeraCifra 325)  -- Debería imprimir 3
