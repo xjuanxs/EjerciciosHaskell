@@ -1,0 +1,17 @@
+-- Función mayorRectangulo
+mayorRectangulo :: (Integer, Integer) -> (Integer, Integer) -> (Integer, Integer)
+mayorRectangulo r1@(b1, h1) r2@(b2, h2)
+  | area1 >= area2 = r1
+  | otherwise      = r2
+  where
+    area1 = b1 * h1
+    area2 = b2 * h2
+
+-- Ejemplos del mayorRectangulo
+
+    main :: IO ()
+    main = do
+
+    print (mayorRectangulo (4, 6) (3, 7)) -- Debería imprimir 4,6
+    print (mayorRectangulo (4, 6) (3, 8)) -- Debería imprimir 4,6
+    print (mayorRectangulo (4, 6) (3, 9)) -- Debería imprimir 3,9
