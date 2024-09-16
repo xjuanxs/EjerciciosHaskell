@@ -6,5 +6,9 @@ xor1 False True = True
 xor1 False False = False
 
 -- Ejemplo para la tabla de verdad xor1
+
+    main :: IO ()
+    main = do
+
     print (xor1 True True) -- Debería imprimir False
     print (xor1 True False) -- Debería imprimir True
