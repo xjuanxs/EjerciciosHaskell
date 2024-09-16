@@ -1,0 +1,7 @@
+-- Función que verifica si tres elementos son iguales
+tresIguales :: Int -> Int -> Int -> Bool
+tresIguales x y z = x == y && y == z
+
+-- Ejemplos para tresIguales
+    print (tresIguales 4 4 4)  -- Debería imprimir True
+    print (tresIguales 4 3 4)  -- Debería imprimir False
