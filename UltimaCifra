@@ -1,0 +1,6 @@
+-- Función ultimaCifra
+ultimaCifra :: Int -> Int
+ultimaCifra x = rem x 10
+
+-- Ejemplo para ultimCifra
+  print (ultimaCifra 325)  -- Debería imprimir 5
