@@ -3,5 +3,9 @@ tresIguales :: Int -> Int -> Int -> Bool
 tresIguales x y z = x == y && y == z
 
 -- Ejemplos para tresIguales
+
+    main :: IO ()
+    main = do
+
     print (tresIguales 4 4 4)  -- Debería imprimir True
     print (tresIguales 4 3 4)  -- Debería imprimir False
